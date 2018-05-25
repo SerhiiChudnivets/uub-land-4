@@ -39,11 +39,11 @@
             </div>
             <p class="mb-5">Ukrainian Universal Exchange</p>
             <div class="input-group input-group-newsletter">
-              <input type="text" class="mb-2 col-12" placeholder="Surname">
+              <input id="surname" type="text" class="mb-2 col-12" placeholder="Surname" autocomplete="on">
 
-              <input type="text" class="mb-2 col-12" placeholder="Name">
+              <input id="name" type="text" class="mb-2 col-12" placeholder="Name" autocomplete="on">
 
-              <input type="text" class="mb-2 col-12" placeholder="Second name">
+              <input id="second_name" type="text" class="mb-2 col-12" placeholder="Second name" autocomplete="on">
               <div class="col-12 d-flex justify-content-between ">
                 <div id="realty_item" onclick="add_realty()" class="point">
                   <label for="realty">
@@ -72,9 +72,9 @@
               <div class="col-12">
               <div class="text-muted">Select news from the list*</div>
             </div>
-              <input type="email" class="form-control mt-5" placeholder="Enter email..." aria-label="Enter email..." aria-describedby="basic-addon">
+              <input id="email" type="email" class="form-control mt-5" placeholder="Enter email..." aria-label="Enter email..." aria-describedby="basic-addon" autocomplete="on">
               <div class="input-group-append">
-                <button class="btn btn-secondary mt-5" type="button">Notify Me!</button>
+                <button class="btn btn-secondary mt-5" type="button" onclick="subscribe()">Notify Me!</button>
               </div>
             </div>
           </div>

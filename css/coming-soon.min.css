@@ -185,6 +185,7 @@ opacity: 0.5;
 h6{
     text-decoration: underline;
     cursor: pointer;
+    margin-bottom: 0;
 }
 .point {
     cursor: pointer;
